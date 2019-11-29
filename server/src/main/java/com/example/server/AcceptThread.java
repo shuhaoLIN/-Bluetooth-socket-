@@ -102,40 +102,8 @@ public class AcceptThread extends Thread {
                     e1.printStackTrace();
                 }
             }
-//            if(socket !=null){
-//                Toast.makeText(context, "连接成功", Toast.LENGTH_SHORT).show();
-//            }else{
-//                Toast.makeText(context, "连接bu成功", Toast.LENGTH_SHORT).show();
-//
-//            }
-            // If a connection was accepted
-//            if (socket != null) {
-//                // Do work to manage the connection (in a separate thread)
-//                //manageConnectedSocket(socket);
-//                chatThread = new ChatThread(socket);
-//                chatThread.run();
-//                try {
-//                    mmServerSocket.close();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//                break;
-//            }
         }
     }
-
-//    private void manageConnectedSocket(BluetoothSocket socket) {
-//        chatThread = new ChatThread(socket);
-//    }
-//
-//    private void writeBytes(byte[] bytes) {
-//        chatThread.write(bytes);
-//    }
-//
-//    private void readStart() {
-//        chatThread.run();
-//    }
-
     /**
      * Will cancel the listening socket, and cause the thread to finish
      */

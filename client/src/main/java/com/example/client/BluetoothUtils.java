@@ -141,33 +141,6 @@ public class BluetoothUtils {
             adapter.cancelDiscovery();
         }
 
-
-
-        //这一块真的气死我了！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
-//        if(socket != null) {
-//            try {
-//                socket.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        if(isRegisted == true) //没搞明白怎么判断是否进行了注册
-//        {
-//            context.unregisterReceiver(receiver);
-//            isRegisted = false;
-//        }
-//        if(input != null){
-//            try {
-//                input.close();
-//                output.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        if(connectThread.isAlive()){
-//            connectThread.interrupt();
-//        }
-
     }
 
     public void tryToConnect(){

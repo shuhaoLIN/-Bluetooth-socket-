@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.client.MainActivity">
+
+    <EditText
+            android:id="@+id/input_text"
+            android:visibility="gone"
+            android:maxLines="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="send"
+            android:visibility="gone"
+            android:id="@+id/send"
+    />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="find bluetooth"
+            android:id="@+id/find"
+    />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="try to connect"
+            android:id="@+id/tryToConnect"
+            android:visibility="gone"
+    />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="发现的蓝牙设备如下所示，点击进行连接匹配"
+              android:textColor="#000000"
+    />
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/show_list"
+    ></ListView>
+</LinearLayout>
